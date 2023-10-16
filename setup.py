@@ -6,6 +6,6 @@ with open("requirements.txt", "r") as f:
 setup(
     name="your_package_name",
     version="0.1",
-    packages=find_packages(),
+    packages=find_packages('.'),
     install_requires=requirements,  # populated from requirements.txt
 )
